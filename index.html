@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="shortcut icon" href="img/delivery.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/headerStyle.css" />
+    <link rel="stylesheet" href="css/pizzasStyle.css" />
+    <link rel="stylesheet" href="css/lasanasStyle.css" />
+    <link rel="stylesheet" href="css/contactoStyle.css" />
+    <title>Pizzería Las Vegas</title>
+  </head>
+  <body class="bodyBg">
+    <header class="headerBg">
+      <div class="headerNav">
+        <img src="img/logoRojo.PNG" alt="Logo Pizzería" class="headerLogo" />
+        <h1 class="headerTittle">Pizzería Las Vegas</h1>
+      </div>
+    </header>
+    <div class="headerAdomicilioBg">
+      <div class="col-2 adomicilioImageBg">
+        <img
+          src="img/delivery.png"
+          alt="Logo Las Vegas"
+          class="adomicilioImage"
+          style="margin-left: 50px"
+        />
+      </div>
+      <div class="col-8 adomicilioText">
+        ¡Contamos con servicio a domicilio GRATIS!
+      </div>
+      <div class="col-2 adomicilioImageBg">
+        <img
+          src="img/delivery.png"
+          alt="Logo Las Vegas"
+          class="adomicilioImage"
+          style="margin-right: 50px"
+        />
+      </div>
+    </div>
+    <section>
+      <ul
+        class="nav nav-pills nav-fill justify-content-center tabBg"
+        id="myTab"
+        role="tablist"
+      >
+        <li class="nav-item">
+          <a
+            class="nav-link tabItemText active"
+            id="pizza-tab"
+            data-toggle="tab"
+            href="#pizza"
+            role="tab"
+            aria-controls="pizza"
+            aria-selected="true"
+          >
+            Pizzas
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link tabItemText"
+            id="calzone-tab"
+            data-toggle="tab"
+            href="#calzone"
+            role="tab"
+            aria-controls="calzone"
+            aria-selected="false"
+            >Don Calzone's</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link tabItemText"
+            id="lasana-tab"
+            data-toggle="tab"
+            href="#lasana"
+            role="tab"
+            aria-controls="lasana"
+            aria-selected="false"
+            >Lasañas</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link tabItemText"
+            id="contacto-tab"
+            data-toggle="tab"
+            href="#contacto"
+            role="tab"
+            aria-controls="contacto"
+            aria-selected="false"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pizza"
+          role="tabpanel"
+          aria-labelledby="pizza-tab"
+        >
+          <section class="text-center">
+            <h2 class="tabTittle">Pizzas</h2>
+          </section>
+          <div class="pizzaDiv">
+            <div class="pizzaSection">
+              <!-- Pizza #1 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizzaPersonal.jpg"
+                      alt="Pizza Personal"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Pizza Personal de 1 Ingrediente + Bebida
+                    </h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <p class="ml-0">
+                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q15</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizza #2 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizzaGrande.jpg"
+                      alt="Pizza Grande"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Pizza Grande de 1 Ingrediente (12 porciones)
+                    </h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <p class="">
+                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q40</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizza #3 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizza2Estaciones.jpg"
+                      alt="Pizza 2 estaciones"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Pizza 2 estaciones <br />
+                      (12 porciones)
+                    </h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <p class="">
+                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q45</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizza #4 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizzaHawaiana.jpg"
+                      alt="Pizza Hawaiana"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Pizza Hawaiana <br />
+                      (12 porciones)
+                    </h5>
+                    <div class="container">
+                      <div class="circuloNoDescriptionBg">
+                        <div class="circulo">
+                          <p class="itemPrice">Q55</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizza #5 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizza18porciones.jpg"
+                      alt="Pizzas 18 porciones"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Pizza de 2 Ingredientes <br />
+                      (18 porciones)
+                    </h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <p class="">
+                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                          <br />
+                          + 2.5 Coca Cola
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q75</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizza #6 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizzaEspecialidad.jpg"
+                      alt="Pizza de Especialidades"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">Pizza de Especialidades</h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <br />
+                        <p class="">5 Carnes, Deluxe o Suprema</p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q85</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizza #7 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizzas3Medianas.jpg"
+                      alt="Pizzas Medianas"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      3 Pizzas Medianas de 1 Ingrediente
+                    </h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <p class="">
+                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q100</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- New Pizza -->
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="calzone"
+          role="tabpanel"
+          aria-labelledby="calzone-tab"
+        >
+          <section class="text-center">
+            <h2 class="tabTittle">Don Calzone's</h2>
+          </section>
+          <div class="pizzaDiv">
+            <div class="pizzaSection">
+              <!-- Calzone #1 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/calzone1Ingrediente.jpg"
+                      alt="Don Calzone 1 Ingrediente"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Don Calzone de 1 Ingrediente + Bebida
+                    </h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <p class="ml-0">
+                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q15</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Calzone #2 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/calzoneHawaDelu.jpg"
+                      alt="Don Calzone Hawaiano o Deluxe"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Don Calzone Hawaiano o <br />
+                      Deluxe + Bebida
+                    </h5>
+                    <div class="container">
+                      <div class="circuloNoDescriptionBg">
+                        <div class="circulo">
+                          <p class="itemPrice">Q20</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Calzone #3 -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/calzoneSupre5Carnes.jpg"
+                      alt="Don Calzone Supremo o 5 Carnes"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Don Calzone Supremo y <br />
+                      5 Carnes + Bebida
+                    </h5>
+                    <div class="container">
+                      <div class="circuloNoDescriptionBg">
+                        <div class="circulo">
+                          <p class="itemPrice">Q25</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- New Calzone -->
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="lasana"
+          role="tabpanel"
+          aria-labelledby="lasana-tab"
+        >
+          <section class="text-center">
+            <h2 class="tabTittle">Lasañas</h2>
+          </section>
+          <div class="pizzaDiv">
+            <div class="pizzaSection">
+              <!-- Lasaña #1 -->
+              <div class="lasanaItemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/lasaña1.jpg"
+                      alt="Lasaña 1 Libra"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Lasaña de 1 Libra <br />
+                      + Bebida
+                    </h5>
+                    <div class="container">
+                      <div class="circuloNoDescriptionBg">
+                        <div class="circulo">
+                          <p class="itemPrice">Q25</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Lasaña #2 -->
+              <div class="lasanaItemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/lasaña2.jpg"
+                      alt="Lasaña 1.5 Libra"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Lasaña de 1.5 Libra <br />
+                      + Bebida
+                    </h5>
+                    <div class="container">
+                      <div class="circuloNoDescriptionBg">
+                        <div class="circulo">
+                          <p class="itemPrice">Q35</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- New Lasana -->
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="contacto"
+          role="tabpanel"
+          aria-labelledby="contacto-tab"
+        >
+          <div>
+            <div class="cardBg">
+              <div class="contactImageBg">
+                <img
+                  src="img/logoAzul.PNG"
+                  alt="Logo Las Vegas"
+                  class="contactImage"
+                />
+              </div>
+              <div class="contactDesc">
+                <br />
+                <h4 class="tabTittle">ENCUENTRANOS</h4>
+                <p class="contactText">12 CALLE C 6-51 ZONA 3</p>
+                <p class="contactText">
+                  EN LA ANTIGUA PARADA DE LAS CAMIONETAS
+                </p>
+                <p>Llamadas o WhatsApp:</p>
+                <div class="contactImgs">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+50248354756&text=PIZZER%C3%8DA%20LAS%20VEGAS.%20Buen%20d%C3%ADa,%20necesito%20pedir%20una%20orden..."
+                    target="_blank"
+                    class="contactWA"
+                    ><img
+                      src="img/whatsapp.png"
+                      alt="WhatsApp 1"
+                      class="contactImgWA"
+                    />(+502) 4835-4756</a
+                  >
+                </div>
+                <div class="contactImgs">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=+50258613864&text=PIZZER%C3%8DA%20LAS%20VEGAS.%20Buen%20d%C3%ADa,%20necesito%20pedir%20una%20orden..."
+                    target="_blank"
+                    class="contactWA"
+                    ><img
+                      src="img/whatsapp.png"
+                      alt="WhatsApp 2"
+                      class="contactImgWA"
+                    />(+502) 5861-3864</a
+                  >
+                </div>
+              </div>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

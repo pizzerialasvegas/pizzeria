@@ -1,0 +1,125 @@
+.cardBg {
+  text-align: center;
+  color: #ffffff;
+}
+.contactImageBg {
+  width: 100%;
+  height: 100%;
+}
+.contactImage {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.contactDesc {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.contactImgs {
+  margin-bottom: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  border-color: #ffffff;
+  border-width: 3px;
+  border-style: double;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contactImgs:hover {
+  background-color: #efefef;
+  color: #000000;
+}
+.contactText {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+.contactWA {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 10px;
+}
+.btnLlamar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 10px;
+}
+.contactWA:hover {
+  color: #000000;
+  font-size: 1.1rem;
+}
+.contactImgWA {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 550px) {
+  .cardBg {
+    display: flex;
+  }
+  .contactImageBg {
+    padding-top: 20px;
+  }
+  .contactImage {
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .contactImage {
+    margin-left: 15px;
+    width: 350px;
+    height: 350px;
+  }
+  .btnLlamar {
+    display: none;
+  }
+}
+
+@media (min-width: 950px) {
+  .cardBg {
+    padding: 40px;
+  }
+  .contactImageBg {
+    padding-top: 0px;
+  }
+  .contactImage {
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+  }
+  .contactDesc {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .contactImage {
+    margin-top: 25px;
+    margin-left: 100px;
+  }
+  .contactDesc {
+    margin-top: 25px;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .contactImage {
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .contactDesc {
+    margin-top: 50px;
+    margin-right: 200px;
+  }
+}

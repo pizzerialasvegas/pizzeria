@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap");
+:root {
+  --theme-color: #ffffff;
+  --primary-color: #a62625;
+  --secondary-color: #151b4b;
+  --third-color: #d8dc25;
+}
+.bodyBg {
+  background-color: var(--primary-color);
+  /* font-family: 'Fira Sans Condensed', sans-serif; */
+}
+.tabBg {
+  background-color: #efefef;
+}
+.tabItemBg {
+  background-color: var(--secondary-color);
+}
+.tabItemText {
+  background-color: #efefef;
+  color: #0a1931;
+  font-weight: bold;
+}
+/* Section Header */
+.headerBg {
+  background-color: var(--secondary-color);
+  padding: 10px 10px;
+  color: #ffffff;
+}
+.headerNav {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.headerTittle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.headerLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+/* Section A Domicilio */
+.headerAdomicilioBg {
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+}
+.adomicilioImageBg {
+  /* background-color: blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.adomicilioImage {
+  width: 55px;
+  height: 55px;
+  padding: 5px 0px 5px 0px;
+}
+.adomicilioText {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.tabTittle {
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@media (min-width: 365px) {
+  .headerTittle {
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .headerLogo {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 410px) {
+  .headerTittle {
+    font-size: 2.2rem;
+    margin-top: 10px;
+  }
+  .headerLogo {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media (min-width: 665px) {
+  .headerTittle {
+    font-size: 2.5rem;
+    margin-right: 50px;
+  }
+  .headerLogo {
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+  }
+  .adomicilioText {
+    font-size: 18px;
+    margin-top: 13px;
+  }
+}
+@media (min-width: 750px) {
+  /* Section A Domicilio */
+  .adomicilioImage {
+    width: 65px;
+    height: 65px;
+  }
+  .adomicilioText {
+    font-size: 23px;
+    margin-top: 13px;
+  }
+}
+
+@media (min-width: 950px) {
+  .headerTittle {
+    font-size: 3rem;
+    margin-right: 100px;
+  }
+  .headerLogo {
+    width: 90px;
+    height: 90px;
+    margin-left: 100px;
+  }
+  .tabBg {
+    font-size: 1.1rem;
+  }
+  .tabTittle {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  .tabBg {
+    font-size: 1.2rem;
+  }
+}

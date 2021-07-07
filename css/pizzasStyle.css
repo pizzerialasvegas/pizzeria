@@ -1,0 +1,190 @@
+.pizzaDiv {
+  margin: 10px 20px 10px 20px;
+}
+.itemCardBg {
+  background-color: #efefef;
+  margin-bottom: 15px;
+}
+.itemTitulo {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.itemDescription {
+  font-size: 14px;
+}
+.itemImageBg {
+  /* background-color: blue; */
+  width: 100%;
+  height: auto;
+}
+.itemImage {
+  width: 100%;
+  height: 100%;
+  padding: 13px 0px 13px 13px;
+  background-repeat: no-repeat;
+}
+.itemDescriptionBg {
+  /* background-color: coral; */
+  padding: 10px;
+  text-align: center;
+}
+.circuloBg {
+  /* background-color: crimson; */
+  padding: 0px;
+  width: 100%;
+  height: auto;
+}
+.circuloNoDescriptionBg {
+  /* background-color: crimson; */
+  padding: 0px;
+  margin-top: -15px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.circulo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #29b606;
+  margin: 20px 0px 0px -10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.itemPrice {
+  /* background-color: cyan;   */
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+@media (min-width: 410px) {
+  /* Section Pizza */
+  .itemCardBg {
+    width: 370px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .itemTitulo {
+    font-size: 20px;
+  }
+  .itemDescription {
+    font-size: 16px;
+  }
+  .itemImageBg {
+    height: 170px;
+  }
+}
+
+@media (min-width: 665px) {
+  /* Section Pizza */
+  .pizzaSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 1em;
+  }
+  .itemCardBg {
+    width: 305px;
+    height: 150px;
+  }
+  .itemTitulo {
+    font-size: 16px;
+  }
+  .itemDescription {
+    font-size: 13px;
+  }
+  .itemImageBg {
+    height: 150px;
+  }
+}
+
+@media (min-width: 750px) {
+  /* Section Pizza */
+  .pizzaDiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .itemCardBg {
+    width: 350px;
+    height: 170px;
+  }
+  .itemTitulo {
+    font-size: 19px;
+  }
+  .itemDescription {
+    font-size: 15px;
+  }
+  .itemImageBg {
+    height: 170px;
+  }
+}
+
+@media (min-width: 950px) {
+  /* Section Pizza */
+  .itemCardBg {
+    width: 400px;
+  }
+  .itemTitulo {
+    font-size: 19px;
+  }
+  .itemDescription {
+    font-size: 16px;
+  }
+  /* Section Circulo */
+  .circulo {
+    width: 55px;
+    height: 55px;
+  }
+  .itemPrice {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* Section Pizza */
+  .pizzaSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 1em;
+  }
+  .itemCardBg {
+    width: 320px;
+  }
+  .itemTitulo {
+    font-size: 18px;
+  }
+  .itemDescription {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1150px) {
+  /* Section Pizza */
+  .itemCardBg {
+    width: 365px;
+    height: 190px;
+  }
+  .itemTitulo {
+    font-size: 20px;
+  }
+  .itemDescription {
+    font-size: 17px;
+  }
+  .itemImageBg {
+    height: 190px;
+  }
+  /* Section Circulo */
+  .circulo {
+    width: 60px;
+    height: 60px;
+  }
+  .itemPrice {
+    font-size: 19px;
+  }
+}
