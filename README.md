@@ -1,2 +1,2 @@
-# pizzeria
+# Pizzeria
 Pizzeria Las Vegas
