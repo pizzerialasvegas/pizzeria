@@ -1,46 +1,54 @@
-.lasanaItemCardBg {
+.calzoneItemCardBg {
   background-color: var(--secondary-color);
   color: #ffffff;
   margin-bottom: 15px;
 }
-.lasanaItemImageBg {
+.calzoneItemImageBg {
   /* background-color: blue; */
   width: 100%;
   height: auto;
 }
 
 @media (min-width: 410px) {
-  .lasanaItemCardBg {
+  .calzoneItemCardBg {
     width: 370px;
-    height: 150px;
+    height: 160px;
     margin-left: auto;
     margin-right: auto;
   }
-  .lasanaItemImageBg {
-    height: 150px;
+  .calzoneItemImageBg {
+    height: 160px;
   }
 }
 
 @media (min-width: 665px) {
-  .lasanaItemCardBg {
-    width: 305px;    
+  .calzoneItemCardBg {
+    width: 305px;
+  }
+}
+@media (min-width: 750px) {
+  .calzoneDescription {
+    font-size: 13px;
   }
 }
 
 @media (min-width: 950px) {
-  .lasanaItemCardBg {
-    width: 400px;    
+  .calzoneItemCardBg {
+    width: 400px;
+  }
+  .calzoneDescription {
+    font-size: 16px;
   }
 }
 
 @media (min-width: 1025px) {
-  .lasanaItemCardBg {
+  .calzoneItemCardBg {
     width: 350px;
   }
 }
 
 @media (min-width: 1150px) {
-  .lasanaItemCardBg {
-    width: 365px;   
+  .calzoneItemCardBg {
+    width: 365px;
   }
 }

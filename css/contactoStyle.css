@@ -59,6 +59,19 @@
   width: 30px;
   height: 30px;
 }
+.hamburguesaDiv {
+  width: 100%;
+  text-align: center;
+  /* background-color: aqua; */
+}
+.hamburguesaText {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.hamburguesaIcon {
+  width: 150px;
+}
 
 @media (min-width: 550px) {
   .cardBg {
@@ -80,9 +93,6 @@
     width: 350px;
     height: 350px;
   }
-  .btnLlamar {
-    display: none;
-  }
 }
 
 @media (min-width: 950px) {
@@ -100,6 +110,15 @@
   .contactDesc {
     margin-top: 10px;
   }
+  .btnLlamar {
+    display: none;
+  }
+  .hamburguesaText {
+    font-size: 2.6rem;
+  }
+  .hamburguesaIcon {
+    width: 200px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -111,6 +130,9 @@
     margin-top: 25px;
     margin-right: 100px;
   }
+  .contactText {
+    font-size: 1.4rem;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -121,5 +143,8 @@
   .contactDesc {
     margin-top: 50px;
     margin-right: 200px;
+  }
+  .contactText {
+    font-size: 1.6rem;
   }
 }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/headerStyle.css" />
     <link rel="stylesheet" href="css/pizzasStyle.css" />
+    <link rel="stylesheet" href="css/calzoneStyle.css" />
     <link rel="stylesheet" href="css/lasanasStyle.css" />
     <link rel="stylesheet" href="css/contactoStyle.css" />
     <title>Pizzería Las Vegas</title>
@@ -32,7 +33,7 @@
   <body class="bodyBg">
     <header class="headerBg">
       <div class="headerNav">
-        <img src="img/logoRojo.PNG" alt="Logo Pizzería" class="headerLogo" />
+        <img src="img/newLogoPizzeria.jpeg" alt="Logo Pizzería" class="headerLogo" />
         <h1 class="headerTittle">Pizzería Las Vegas</h1>
       </div>
     </header>
@@ -103,6 +104,18 @@
         <li class="nav-item">
           <a
             class="nav-link tabItemText"
+            id="hamburguesa-tab"
+            data-toggle="tab"
+            href="#hamburguesa"
+            role="tab"
+            aria-controls="hamburguesa"
+            aria-selected="false"
+            >Hamburguesas</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link tabItemText"
             id="contacto-tab"
             data-toggle="tab"
             href="#contacto"
@@ -121,11 +134,43 @@
           aria-labelledby="pizza-tab"
         >
           <section class="text-center">
-            <h2 class="tabTittle">Pizzas</h2>
+            <!-- <h2 class="tabTittle">Pizzas</h2> -->
           </section>
+          <!-- Pizza Portada -->
+          <div class="itemCardBgVertical">
+            <div class="row itemImageBgVertical">
+              <img
+                src="img/pizzaportada.jpeg"
+                alt="Pizza Grande"
+                class="itemImageVertical"
+              />
+            </div>
+            <div class="row itemDescriptionBgVertical">
+              <h5 class="container itemTituloVertical">
+                Pizza Grande de 1 Ingrediente <br />
+                (12 Porciones)
+              </h5>
+              <div class="container row">
+                <div class="col-9 itemDescriptionVertical">
+                  <p class="ml-0">
+                    INGREDIENTES DISPONIBLES: <br />
+                    Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                  </p>
+                </div>
+                <div class="col-3">
+                  <div class="circuloBg">
+                    <div class="circuloVertical">
+                      <p class="itemPriceVertical">Q40</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
           <div class="pizzaDiv">
             <div class="pizzaSection">
-              <!-- Pizza #1 -->
+              <!-- Pizza -->
               <div class="itemCardBg">
                 <div class="row no-gutters">
                   <div class="col-4 itemImageBg">
@@ -157,39 +202,7 @@
                 </div>
               </div>
 
-              <!-- Pizza #2 -->
-              <div class="itemCardBg">
-                <div class="row no-gutters">
-                  <div class="col-4 itemImageBg">
-                    <img
-                      src="img/pizzaGrande.jpg"
-                      alt="Pizza Grande"
-                      class="itemImage"
-                    />
-                  </div>
-                  <div class="col-8 itemDescriptionBg">
-                    <h5 class="itemTitulo">
-                      Pizza Grande de 1 Ingrediente (12 porciones)
-                    </h5>
-                    <div class="container row">
-                      <div class="col-9 itemDescription">
-                        <p class="">
-                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
-                        </p>
-                      </div>
-                      <div class="col-3">
-                        <div class="circuloBg">
-                          <div class="circulo">
-                            <p class="itemPrice">Q40</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Pizza #3 -->
+              <!-- Pizza -->
               <div class="itemCardBg">
                 <div class="row no-gutters">
                   <div class="col-4 itemImageBg">
@@ -222,7 +235,7 @@
                 </div>
               </div>
 
-              <!-- Pizza #4 -->
+              <!-- Pizza -->
               <div class="itemCardBg">
                 <div class="row no-gutters">
                   <div class="col-4 itemImageBg">
@@ -248,42 +261,7 @@
                 </div>
               </div>
 
-              <!-- Pizza #5 -->
-              <div class="itemCardBg">
-                <div class="row no-gutters">
-                  <div class="col-4 itemImageBg">
-                    <img
-                      src="img/pizza18porciones.jpg"
-                      alt="Pizzas 18 porciones"
-                      class="itemImage"
-                    />
-                  </div>
-                  <div class="col-8 itemDescriptionBg">
-                    <h5 class="itemTitulo">
-                      Pizza de 2 Ingredientes <br />
-                      (18 porciones)
-                    </h5>
-                    <div class="container row">
-                      <div class="col-9 itemDescription">
-                        <p class="">
-                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
-                          <br />
-                          + 2.5 Coca Cola
-                        </p>
-                      </div>
-                      <div class="col-3">
-                        <div class="circuloBg">
-                          <div class="circulo">
-                            <p class="itemPrice">Q75</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Pizza #6 -->
+              <!-- Pizza -->
               <div class="itemCardBg">
                 <div class="row no-gutters">
                   <div class="col-4 itemImageBg">
@@ -312,7 +290,7 @@
                 </div>
               </div>
 
-              <!-- Pizza #7 -->
+              <!-- Pizza -->
               <div class="itemCardBg">
                 <div class="row no-gutters">
                   <div class="col-4 itemImageBg">
@@ -359,10 +337,10 @@
           </section>
           <div class="pizzaDiv">
             <div class="pizzaSection">
-              <!-- Calzone #1 -->
-              <div class="itemCardBg">
+              <!-- Calzone -->
+              <div class="calzoneItemCardBg">
                 <div class="row no-gutters">
-                  <div class="col-4 itemImageBg">
+                  <div class="col-4 calzoneItemImageBg">
                     <img
                       src="img/calzone1Ingrediente.jpg"
                       alt="Don Calzone 1 Ingrediente"
@@ -374,7 +352,7 @@
                       Don Calzone de 1 Ingrediente + Bebida
                     </h5>
                     <div class="container row">
-                      <div class="col-9 itemDescription">
+                      <div class="col-9 itemDescription calzoneDescription">
                         <p class="ml-0">
                           Jamón, Peperoni, Salami, Carne o Salchicha Italiana
                         </p>
@@ -391,19 +369,45 @@
                 </div>
               </div>
 
-              <!-- Calzone #2 -->
-              <div class="itemCardBg">
+              <!-- Calzone -->
+              <div class="calzoneItemCardBg">
                 <div class="row no-gutters">
-                  <div class="col-4 itemImageBg">
+                  <div class="col-4 calzoneItemImageBg">
                     <img
                       src="img/calzoneHawaDelu.jpg"
-                      alt="Don Calzone Hawaiano o Deluxe"
+                      alt="Don Calzone Hawaiano + Bebida"
                       class="itemImage"
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
                     <h5 class="itemTitulo">
-                      Don Calzone Hawaiano o <br />
+                      Don Calzone <br />
+                      Hawaiano + Bebida
+                    </h5>
+                    <div class="container">
+                      <div class="circuloNoDescriptionBg">
+                        <div class="circulo">
+                          <p class="itemPrice">Q20</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Calzone -->
+              <div class="calzoneItemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 calzoneItemImageBg">
+                    <img
+                      src="img/calzoneDeluxe.jpg"
+                      alt="Don Calzone Deluxe + Bebida"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Don Calzone <br />
                       Deluxe + Bebida
                     </h5>
                     <div class="container">
@@ -417,10 +421,10 @@
                 </div>
               </div>
 
-              <!-- Calzone #3 -->
-              <div class="itemCardBg">
+              <!-- Calzone -->
+              <div class="calzoneItemCardBg">
                 <div class="row no-gutters">
-                  <div class="col-4 itemImageBg">
+                  <div class="col-4 calzoneItemImageBg">
                     <img
                       src="img/calzoneSupre5Carnes.jpg"
                       alt="Don Calzone Supremo o 5 Carnes"
@@ -429,7 +433,33 @@
                   </div>
                   <div class="col-8 itemDescriptionBg">
                     <h5 class="itemTitulo">
-                      Don Calzone Supremo y <br />
+                      Don Calzone <br />
+                      Supremo + Bebida
+                    </h5>
+                    <div class="container">
+                      <div class="circuloNoDescriptionBg">
+                        <div class="circulo">
+                          <p class="itemPrice">Q25</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Calzone -->
+              <div class="calzoneItemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 calzoneItemImageBg">
+                    <img
+                      src="img/calzone5Carnes.jpg"
+                      alt="Don Calzone Supremo o 5 Carnes"
+                      class="itemImage"
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Don Calzone <br />
                       5 Carnes + Bebida
                     </h5>
                     <div class="container">
@@ -461,7 +491,7 @@
               <!-- Lasaña #1 -->
               <div class="lasanaItemCardBg">
                 <div class="row no-gutters">
-                  <div class="col-4 itemImageBg">
+                  <div class="col-4 lasanaItemImageBg">
                     <img
                       src="img/lasaña1.jpg"
                       alt="Lasaña 1 Libra"
@@ -487,7 +517,7 @@
               <!-- Lasaña #2 -->
               <div class="lasanaItemCardBg">
                 <div class="row no-gutters">
-                  <div class="col-4 itemImageBg">
+                  <div class="col-4 lasanaItemImageBg">
                     <img
                       src="img/lasaña2.jpg"
                       alt="Lasaña 1.5 Libra"
@@ -514,6 +544,31 @@
             </div>
           </div>
         </div>
+
+        <div
+          class="tab-pane fade"
+          id="hamburguesa"
+          role="tabpanel"
+          aria-labelledby="hamburguesa-tab"
+        >
+          <section class="text-center">
+            <!-- <h2 class="tabTittle">Hamburguesas</h2> -->
+          </section>
+          <div class="hamburguesaDiv">
+            <br /><br />
+            <div>
+              <h2 class="hamburguesaText">PRÓXIMAMENTE...</h2>
+            </div>
+            <div>
+              <img
+                src="img/hamburguesa.svg"
+                alt="Hamburguesas"
+                class="hamburguesaIcon"
+              />
+            </div>
+          </div>
+        </div>
+
         <div
           class="tab-pane fade"
           id="contacto"
@@ -524,7 +579,7 @@
             <div class="cardBg">
               <div class="contactImageBg">
                 <img
-                  src="img/logoAzul.PNG"
+                  src="img/newLogoPizzeria.jpeg"
                   alt="Logo Las Vegas"
                   class="contactImage"
                 />
@@ -532,11 +587,20 @@
               <div class="contactDesc">
                 <br />
                 <h4 class="tabTittle">ENCUENTRANOS</h4>
-                <p class="contactText">12 CALLE C 6-51 ZONA 3</p>
+                <p class="contactText">12 CALLE "C" 6-51 ZONA 3</p>
                 <p class="contactText">
                   EN LA ANTIGUA PARADA DE LAS CAMIONETAS
                 </p>
-                <p>Llamadas o WhatsApp:</p>
+                <p class="contactText">Llamadas o WhatsApp:</p>
+                <div class="contactImgs btnLlamar">
+                  <a href="tel:+50248354756" target="_blank" class="contactWA"
+                    ><img
+                      src="img/telefono.svg"
+                      alt="WhatsApp 1"
+                      class="contactImgWA"
+                    />(+502) 4835-4756</a
+                  >
+                </div>
                 <div class="contactImgs">
                   <a
                     href="https://api.whatsapp.com/send?phone=+50248354756&text=PIZZER%C3%8DA%20LAS%20VEGAS.%20Buen%20d%C3%ADa,%20necesito%20pedir%20una%20orden..."
