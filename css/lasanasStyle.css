@@ -8,6 +8,15 @@
   width: 100%;
   height: auto;
 }
+.lasanaItemTitulo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.lasanaItemDescription {
+  font-size: 1rem;
+  margin-top: 10px;
+}
 
 @media (min-width: 410px) {
   .lasanaItemCardBg {
@@ -19,28 +28,75 @@
   .lasanaItemImageBg {
     height: 150px;
   }
+  .lasanaItemTitulo {
+    font-size: 1.3rem;
+  }
+  .lasanaItemDescription {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 665px) {
   .lasanaItemCardBg {
-    width: 305px;    
+    width: 305px;
+  }
+  .lasanaItemTitulo {
+    font-size: 1.1rem;
+  }
+  .lasanaItemDescription {
+    font-size: 1rem;    
   }
 }
 
 @media (min-width: 950px) {
   .lasanaItemCardBg {
-    width: 400px;    
+    width: 400px;
+  }
+  .lasanaItemTitulo {
+    font-size: 1.4rem;
+  }
+  .lasanaItemDescription {
+    font-size: 1.2rem;    
   }
 }
 
 @media (min-width: 1025px) {
   .lasanaItemCardBg {
-    width: 350px;
+    width: 320px;
+  }
+  .lasanaItemTitulo {
+    font-size: 1.3rem;
+  }
+  .lasanaItemDescription {
+    font-size: 1.1rem;    
+  }
+  .circuloAux{
+    margin-top: 10px;
   }
 }
 
 @media (min-width: 1150px) {
   .lasanaItemCardBg {
-    width: 365px;   
+    width: 365px;
+  }
+  .lasanaItemTitulo {
+    font-size: 1.3rem;
+  }
+  .lasanaItemDescription {
+    font-size: 1.2rem;    
+  }
+  .circuloAux{
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1350px) {
+  .lasanaItemCardBg {
+    width: 425px;
+  }
+  .lasanaItemTitulo {
+    font-size: 1.5rem;
+  }
+  .lasanaItemDescription {
+    font-size: 1.3rem;    
   }
 }

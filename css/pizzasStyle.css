@@ -345,6 +345,19 @@
 }
 
 @media (min-width: 1350px) {
+  .itemCardBg {
+    width: 425px;
+    height: 200px;
+  }
+  .itemTitulo {
+    font-size: 22px;
+  }
+  .itemDescription {
+    font-size: 20px;
+  }
+  .itemImageBg {
+    height: 200px;
+  }
   .itemTituloVertical {
     font-size: 45px;
   }

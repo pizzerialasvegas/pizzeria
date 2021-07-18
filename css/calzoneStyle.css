@@ -37,18 +37,33 @@
     width: 400px;
   }
   .calzoneDescription {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
 @media (min-width: 1025px) {
   .calzoneItemCardBg {
-    width: 350px;
+    width: 320px;
+  }
+  .calzoneDescription {
+    font-size: 14px;
   }
 }
 
 @media (min-width: 1150px) {
   .calzoneItemCardBg {
     width: 365px;
+  }
+  .calzoneDescription {
+    font-size: 16px;
+  }
+  .circuloCalzone {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .calzoneItemCardBg {
+    width: 425px;
   }
 }

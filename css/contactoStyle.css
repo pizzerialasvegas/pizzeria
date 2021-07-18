@@ -110,6 +110,9 @@
   .contactDesc {
     margin-top: 10px;
   }
+  .contactText {
+    font-size: 1.2rem;
+  }
   .btnLlamar {
     display: none;
   }
