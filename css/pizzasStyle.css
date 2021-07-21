@@ -31,12 +31,10 @@
   font-size: 15px;
 }
 .itemImageBg {
-  /* background-color: blue; */
   width: 100%;
   height: auto;
 }
 .itemImageBgVertical {
-  /* background-color: aqua; */
   margin: 0%;
   width: 100%;
   height: auto;
