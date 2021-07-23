@@ -29,10 +29,10 @@
     height: 150px;
   }
   .lasanaItemTitulo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .lasanaItemDescription {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -53,10 +53,10 @@
     width: 400px;
   }
   .lasanaItemTitulo {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .lasanaItemDescription {
-    font-size: 1.2rem;    
+    font-size: 1.1rem;    
   }
 }
 
@@ -65,10 +65,7 @@
     width: 320px;
   }
   .lasanaItemTitulo {
-    font-size: 1.3rem;
-  }
-  .lasanaItemDescription {
-    font-size: 1.1rem;    
+    font-size: 1.2rem;
   }
   .circuloAux{
     margin-top: 10px;
@@ -82,9 +79,6 @@
   .lasanaItemTitulo {
     font-size: 1.3rem;
   }
-  .lasanaItemDescription {
-    font-size: 1.2rem;    
-  }
   .circuloAux{
     margin-top: 20px;
   }
@@ -97,6 +91,6 @@
     font-size: 1.5rem;
   }
   .lasanaItemDescription {
-    font-size: 1.3rem;    
+    font-size: 1.2rem;    
   }
 }
