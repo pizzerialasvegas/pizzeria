@@ -19,14 +19,15 @@
   .calzoneItemImageBg {
     height: 160px;
   }
+  .calzoneDescription {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 665px) {
   .calzoneItemCardBg {
     width: 305px;
   }
-}
-@media (min-width: 750px) {
   .calzoneDescription {
     font-size: 13px;
   }
@@ -37,7 +38,7 @@
     width: 400px;
   }
   .calzoneDescription {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
