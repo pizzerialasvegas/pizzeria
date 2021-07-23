@@ -4,7 +4,12 @@ function isFacebookApp() {
 }
 if (isFacebookApp()) {
   // your action here if user using Facebook in-app browser
-  alert(
-    "¿Está utilizando el navegador de Facebook? Para tener una mejor experiencia utiliza el navegador de Google Chrome. GRACIAS!"
-  );
+  if (
+    confirm(
+      "Para tener una mejor experiencia utiliza el navegador de Google Chrome. ¿Quieres abrir la página con Google Chrome?"
+    )
+  ) {
+    console.log("Click en True");
+    window.open("https://pizzerialasvegas.com", "_blank");
+  }
 }
