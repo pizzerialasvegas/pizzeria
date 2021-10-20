@@ -183,6 +183,9 @@
   .itemDescription {
     font-size: 13px;
   }
+  .itemDescriptionAux {
+    font-size: 12px;
+  }
   .itemImageBg {
     height: 150px;
   }
@@ -238,6 +241,9 @@
   }
   .itemDescription {
     font-size: 17px;
+  }
+  .itemDescriptionAux {
+    font-size: 16px;
   }
   /* Section Circulo */
   .circulo {
