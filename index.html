@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/calzoneStyle.css" />
     <link rel="stylesheet" href="css/lasanasStyle.css" />
     <link rel="stylesheet" href="css/contactoStyle.css" />
+    <link rel="stylesheet" href="css/openImage.css" />
     <title>Pizzería Las Vegas</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -61,6 +62,12 @@
           style="margin-right: 50px"
         />
       </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
     </div>
     <section>
       <ul
@@ -221,6 +228,8 @@
                       src="img/pizza4Estaciones2.jpeg"
                       alt="Pizza 4 Estaciones"
                       class="itemImage"
+                      id="pizza4Estaciones2"
+                      onclick='openModal("pizza4Estaciones2")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -250,8 +259,10 @@
                   <div class="col-4 itemImageBg">
                     <img
                       src="img/cheeseBread.jpeg"
-                      alt="Cheese Bread"
+                      alt="Cheese Bread + Bebida"
                       class="itemImage"
+                      id="cheeseBread"
+                      onclick='openModal("cheeseBread")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -276,8 +287,10 @@
                   <div class="col-4 itemImageBg">
                     <img
                       src="img/pizza2Estaciones.jpg"
-                      alt="Pizza 2 estaciones"
+                      alt="Pizza 2 estaciones (12 porciones)"
                       class="itemImage"
+                      id="pizza2Estaciones"
+                      onclick='openModal("pizza2Estaciones")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -309,8 +322,10 @@
                   <div class="col-4 itemImageBg">
                     <img
                       src="img/pizzaHawaiana.jpg"
-                      alt="Pizza Hawaiana"
+                      alt="Pizza Hawaiana (12 porciones)"
                       class="itemImage"
+                      id="pizzaHawaiana"
+                      onclick='openModal("pizzaHawaiana")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -337,6 +352,8 @@
                       src="img/pizzaEspecialidad.jpg"
                       alt="Pizza de Especialidades"
                       class="itemImage"
+                      id="pizzaEspecialidad"
+                      onclick='openModal("pizzaEspecialidad")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -364,8 +381,10 @@
                   <div class="col-4 itemImageBg">
                     <img
                       src="img/pizzas3Medianas.jpg"
-                      alt="Pizzas Medianas"
+                      alt="3 Pizzas Medianas de 1 Ingrediente"
                       class="itemImage"
+                      id="pizzas3Medianas"
+                      onclick='openModal("pizzas3Medianas")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -412,8 +431,10 @@
                   <div class="col-4 calzoneItemImageBg">
                     <img
                       src="img/calzone1.jpg"
-                      alt="Don Calzone 1 Ingrediente"
+                      alt="Don Calzone de 1 Ingrediente + Bebida"
                       class="itemImage"
+                      id="calzone1"
+                      onclick='openModal("calzone1")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -446,6 +467,8 @@
                       src="img/calzoneHawaDelu.jpg"
                       alt="Don Calzone Hawaiano + Bebida"
                       class="itemImage"
+                      id="calzone2"
+                      onclick='openModal("calzone2")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -472,6 +495,8 @@
                       src="img/calzoneDeluxe.jpg"
                       alt="Don Calzone Deluxe + Bebida"
                       class="itemImage"
+                      id="calzone3"
+                      onclick='openModal("calzone3")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -496,8 +521,10 @@
                   <div class="col-4 calzoneItemImageBg">
                     <img
                       src="img/calzoneSupre5Carnes.jpg"
-                      alt="Don Calzone Supremo o 5 Carnes"
+                      alt="Don Calzone Supremo + Bebida"
                       class="itemImage"
+                      id="calzone4"
+                      onclick='openModal("calzone4")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -522,8 +549,10 @@
                   <div class="col-4 calzoneItemImageBg">
                     <img
                       src="img/calzone5Carnes.jpg"
-                      alt="Don Calzone Supremo o 5 Carnes"
+                      alt="Don Calzone 5 Carnes + Bebida"
                       class="itemImage"
+                      id="calzone5"
+                      onclick='openModal("calzone5")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -564,8 +593,10 @@
                   <div class="col-4 lasanaItemImageBg">
                     <img
                       src="img/lasaña1.jpg"
-                      alt="Pizza Personal"
+                      alt="Lasaña de 1 Libra"
                       class="itemImage"
+                      id="lasana1"
+                      onclick='openModal("lasana1")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -592,8 +623,10 @@
                   <div class="col-4 lasanaItemImageBg">
                     <img
                       src="img/lasaña2.jpg"
-                      alt="Pizza Personal"
+                      alt="Lasaña de 1.5 Libra"
                       class="itemImage"
+                      id="lasana2"
+                      onclick='openModal("lasana2")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -620,8 +653,10 @@
                   <div class="col-4 lasanaItemImageBg">
                     <img
                       src="img/spaguetti1.jpg"
-                      alt="Spaguetti"
+                      alt="Spaguetti de 1 Libra"
                       class="itemImage"
+                      id="lasana3"
+                      onclick='openModal("lasana3")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -648,8 +683,10 @@
                   <div class="col-4 lasanaItemImageBg">
                     <img
                       src="img/spaguetti2.jpg"
-                      alt="Spaguetti"
+                      alt="Spaguetti de 1.5 Libra"
                       class="itemImage"
+                      id="spaguetti1"
+                      onclick='openModal("spaguetti1")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -676,8 +713,10 @@
                   <div class="col-4 itemImageBg">
                     <img
                       src="img/alitas1.jpg"
-                      alt="Alitas Combo"
+                      alt="5 Alitas en Barbacoa + Bebida"
                       class="itemImage"
+                      id="spaguetti2"
+                      onclick='openModal("spaguetti2")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -706,8 +745,10 @@
                   <div class="col-4 itemImageBg">
                     <img
                       src="img/alitas2.jpg"
-                      alt="Alitas Combo"
+                      alt="10 Alitas en Barbacoa"
                       class="itemImage"
+                      id="spaguetti3"
+                      onclick='openModal("spaguetti3")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -753,8 +794,10 @@
                   <div class="col-4 itemImageBg">
                     <img
                       src="img/pizzaPersonal.jpg"
-                      alt="Pizza Personal"
+                      alt="Pizza Personal de 1 Ingrediente + Bebida"
                       class="itemImage"
+                      id="personal1"
+                      onclick='openModal("personal1")'
                     />
                   </div>
                   <div class="col-8 itemDescriptionBg">
@@ -880,5 +923,6 @@
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/openModal.js"></script>
   </body>
 </html>
