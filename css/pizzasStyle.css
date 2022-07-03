@@ -111,6 +111,14 @@
   font-weight: bold;
   font-size: 17px;
 }
+.initImageHeight {
+  display: block;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media (min-width: 410px) {
   /* Section Pizza */
@@ -145,6 +153,25 @@
     font-size: 18px;
   }
 }
+
+@media (min-width: 465px) {
+  .initImageHeight {
+    width: 90%;
+  }
+}
+
+@media (min-width: 500px) {
+  .initImageHeight {
+    height: 650px;
+  }
+}
+
+@media (min-width: 530px) {
+  .initImageHeight {
+    width: 80%;
+  }
+}
+
 @media (min-width: 550px) {
   .itemCardBgVertical {
     display: flex;
@@ -231,6 +258,13 @@
   }
 }
 
+@media (min-width: 768px) {
+  .initImageHeight {
+    width: 100%;
+    height: 550px;
+  }
+}
+
 @media (min-width: 950px) {
   /* Section Pizza */
   .itemCardBg {
@@ -267,6 +301,13 @@
   }
   .itemImageVertical {
     height: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .initImageHeight {
+    width: 90%;
+    height: 625px;
   }
 }
 
@@ -348,6 +389,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .initImageHeight {
+    height: 750px;
+  }
+}
+
 @media (min-width: 1350px) {
   .itemCardBg {
     width: 425px;
@@ -373,7 +420,7 @@
     height: 100px;
     margin: 40px 0px 0px 10px;
   }
-  .itemPriceVertical {    
+  .itemPriceVertical {
     font-size: 35px;
   }
 }
@@ -390,7 +437,7 @@
     height: 110px;
     margin: 20px 0px 0px 20px;
   }
-  .itemPriceVertical {    
+  .itemPriceVertical {
     font-size: 40px;
   }
 }
