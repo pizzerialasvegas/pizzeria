@@ -111,13 +111,20 @@
   font-weight: bold;
   font-size: 17px;
 }
-.initImageHeight {
+.initPolloRostizado {
   display: block;
   width: 100%;
-  height: 600px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+.initPizzaPrincipal {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  content: url("/img/pizzaGrande45.jpg");
 }
 
 @media (min-width: 410px) {
@@ -155,20 +162,20 @@
 }
 
 @media (min-width: 465px) {
-  .initImageHeight {
-    width: 90%;
+  .initPolloRostizado {
+    width: 95%;
   }
-}
-
-@media (min-width: 500px) {
-  .initImageHeight {
-    height: 650px;
+  .initPizzaPrincipal {
+    width: 95%;
   }
 }
 
 @media (min-width: 530px) {
-  .initImageHeight {
-    width: 80%;
+  .initPolloRostizado {
+    width: 85%;
+  }
+  .initPizzaPrincipal {
+    width: 85%;
   }
 }
 
@@ -189,6 +196,13 @@
   }
   .circuloVertical {
     margin: 40px 0px 0px -10px;
+  }
+  .initPolloRostizado {
+    width: 90%;
+  }
+  .initPizzaPrincipal {
+    width: 90%;
+    content: url("/img/pizzaGrande45H.PNG");
   }
 }
 
@@ -218,6 +232,12 @@
   }
   .circuloVertical {
     margin: 20px 0px 0px -10px;
+  }
+  .initPolloRostizado {
+    width: 80%;
+  }
+  .initPizzaPrincipal {
+    width: 80%;
   }
 }
 
@@ -259,9 +279,12 @@
 }
 
 @media (min-width: 768px) {
-  .initImageHeight {
+  .initPolloRostizado {
     width: 100%;
-    height: 550px;
+    height: 100%;
+  }
+  .initPizzaPrincipal {
+    width: 100%;
   }
 }
 
@@ -301,13 +324,6 @@
   }
   .itemImageVertical {
     height: 300px;
-  }
-}
-
-@media (min-width: 992px) {
-  .initImageHeight {
-    width: 90%;
-    height: 625px;
   }
 }
 
@@ -387,11 +403,11 @@
   .itemImageVertical {
     height: 400px;
   }
-}
-
-@media (min-width: 1200px) {
-  .initImageHeight {
-    height: 750px;
+  .initPolloRostizado {
+    width: 90%;
+  }
+  .initPizzaPrincipal {
+    width: 85%;
   }
 }
 
