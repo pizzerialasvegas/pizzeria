@@ -276,6 +276,12 @@
     margin-top: 18px;
     font-size: 20px;
   }
+  .initPolloRostizado {
+    width: 70%;
+  }
+  .initPizzaPrincipal {
+    width: 70%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -285,6 +291,7 @@
   }
   .initPizzaPrincipal {
     width: 100%;
+    content: url("/img/pizzaGrande45Vertical.png");
   }
 }
 
@@ -325,6 +332,12 @@
   .itemImageVertical {
     height: 300px;
   }
+  .initPolloRostizado {
+    width: 95%;
+  }
+  .initPizzaPrincipal {
+    width: 95%;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -360,6 +373,12 @@
   }
   .itemImageVertical {
     height: 350px;
+  }
+  .initPolloRostizado {
+    width: 85%;
+  }
+  .initPizzaPrincipal {
+    width: 85%;
   }
 }
 @media (min-width: 1150px) {
@@ -404,10 +423,10 @@
     height: 400px;
   }
   .initPolloRostizado {
-    width: 90%;
+    width: 80%;
   }
   .initPizzaPrincipal {
-    width: 85%;
+    width: 80%;
   }
 }
 
@@ -439,6 +458,12 @@
   .itemPriceVertical {
     font-size: 35px;
   }
+  .initPolloRostizado {
+    width: 70%;
+  }
+  .initPizzaPrincipal {
+    width: 70%;
+  }
 }
 
 @media (min-width: 1550px) {
@@ -455,5 +480,11 @@
   }
   .itemPriceVertical {
     font-size: 40px;
+  }
+  .initPolloRostizado {
+    width: 50%;
+  }
+  .initPizzaPrincipal {
+    width: 50%;
   }
 }
