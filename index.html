@@ -157,24 +157,79 @@
           aria-labelledby="pizza-tab"
         >
           <section class="text-center">
-            <!-- <h2 class="tabTittle">Pizzas</h2> -->
+            <h2 class="tabTittle">Pizzas</h2>
           </section>
-          <div class="row" style="margin: 0px">
-            <div class="col-sm-12 col-md-6">
-              <img
-                src="img/pizzaExtrema.jpeg"
-                alt="Pizza Extrema"
-                class="initPolloRostizado"
-              />
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <img alt="Pizza Grande" class="initPizzaPrincipal" />
-            </div>
-          </div>
-          <br /><br /><br />
 
           <div class="pizzaDiv">
             <div class="pizzaSection">
+              <!-- Pizza -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizzaExtrema.jpeg"
+                      alt="Pizza Extrema"
+                      class="itemImage"
+                      id="pizzaExtrema"
+                      onclick='openModal("pizzaExtrema")'
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">Pizza Extrema</h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescriptionPizzaExtrema">
+                        <p class="ml-0">
+                          * 3 estaciones (Deluxe, Hawaiana, 5 Carnes) <br />
+                          * 1 estación de 1 ingrediente a tu elección
+                        </p>
+                      </div>
+                      <div class="col-2">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q75</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizza -->
+              <div class="itemCardBg">
+                <div class="row no-gutters">
+                  <div class="col-4 itemImageBg">
+                    <img
+                      src="img/pizzaportada.jpeg"
+                      alt="Pizza Grande de 1 Ingrediente (12 porciones)"
+                      class="itemImage"
+                      id="pizzaGrande1Ingrediente"
+                      onclick='openModal("pizzaGrande1Ingrediente")'
+                    />
+                  </div>
+                  <div class="col-8 itemDescriptionBg">
+                    <h5 class="itemTitulo">
+                      Pizza Grande de 1 Ingrediente <br />
+                      (12 porciones)
+                    </h5>
+                    <div class="container row">
+                      <div class="col-9 itemDescription">
+                        <p class="ml-0">
+                          Jamón, Peperoni, Salami, Carne o Salchicha Italiana
+                        </p>
+                      </div>
+                      <div class="col-3">
+                        <div class="circuloBg">
+                          <div class="circulo">
+                            <p class="itemPrice">Q50</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <!-- Pizza -->
               <div class="itemCardBg">
                 <div class="row no-gutters">
@@ -423,8 +478,6 @@
                   </div>
                 </div>
               </div>
-
-              <!-- New Pizza -->
             </div>
           </div>
           <br />
@@ -585,8 +638,6 @@
                   </div>
                 </div>
               </div>
-
-              <!-- New Calzone -->
             </div>
           </div>
           <br />
@@ -755,8 +806,6 @@
                   </div>
                 </div>
               </div>
-
-              <!-- Spaguetti -->
             </div>
           </div>
           <br />
@@ -806,8 +855,6 @@
                   </div>
                 </div>
               </div>
-
-              <!-- Spaguetti -->
             </div>
           </div>
           <br />

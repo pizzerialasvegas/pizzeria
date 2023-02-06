@@ -126,6 +126,9 @@
   margin-right: auto;
   content: url("/img/Pizza1IngredienteQ50V.png");
 }
+.itemDescriptionPizzaExtrema {
+  font-size: 13px;
+}
 
 @media (min-width: 410px) {
   /* Section Pizza */
@@ -167,6 +170,9 @@
   }
   .initPizzaPrincipal {
     width: 95%;
+  }
+  .itemDescriptionPizzaExtrema {
+    font-size: 13px;
   }
 }
 
@@ -227,6 +233,9 @@
   .itemDescriptionAux {
     font-size: 12px;
   }
+  .itemDescriptionPizzaExtrema {
+    font-size: 12px;
+  }
   .itemImageBg {
     height: 150px;
   }
@@ -238,6 +247,9 @@
   }
   .initPizzaPrincipal {
     width: 80%;
+  }
+  .itemDescriptionPizzaExtrema {
+    font-size: 11px;
   }
 }
 
@@ -281,6 +293,9 @@
   }
   .initPizzaPrincipal {
     width: 70%;
+  }
+  .itemDescriptionPizzaExtrema {
+    font-size: 14px;
   }
 }
 
@@ -380,6 +395,9 @@
   .initPizzaPrincipal {
     width: 85%;
   }
+  .itemDescriptionPizzaExtrema {
+    font-size: 12px;
+  }
 }
 @media (min-width: 1150px) {
   /* Section Pizza */
@@ -428,6 +446,9 @@
   .initPizzaPrincipal {
     width: 80%;
   }
+  .itemDescriptionPizzaExtrema {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 1350px) {
@@ -463,6 +484,9 @@
   }
   .initPizzaPrincipal {
     width: 70%;
+  }
+  .itemDescriptionPizzaExtrema {
+    font-size: 17px;
   }
 }
 
