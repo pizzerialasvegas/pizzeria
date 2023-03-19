@@ -5,7 +5,10 @@
   --third-color: #d8dc25;
 }
 .bodyBg {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  background-color: #a62625;
+  background-color: -webkit-linear-gradient(to top, #6f0000, #a62625);
+  background-color: linear-gradient(to top, #6f0000, #a62625);
 }
 .tabBg {
   background-color: #efefef;
