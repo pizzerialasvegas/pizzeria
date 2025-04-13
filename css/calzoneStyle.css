@@ -1,10 +1,10 @@
 .calzoneItemCardBg {
   /* background-color: var(--secondary-color); */
-  background-color: #151b4b;
-  background-color: -webkit-linear-gradient(to bottom, #151b4b, #141e30);
-  background-color: linear-gradient(to bottom, #151b4b, #141e30);
+  background-color: #173185;
+  background-color: -webkit-linear-gradient(to bottom, #173185, #141e30);
+  background-color: linear-gradient(to bottom, #173185, #141e30);
   border-radius: 2%;
-  color: #ffffff;
+  color: #e6e7df;
   margin-bottom: 15px;
 }
 

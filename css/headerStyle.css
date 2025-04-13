@@ -1,14 +1,14 @@
 :root {
   --theme-color: #efefef;
-  --primary-color: #a62625;
-  --secondary-color: #151b4b;
+  --primary-color: #a91825;
+  --secondary-color: #173185;
   --third-color: #d8dc25;
 }
 .bodyBg {
   /* background-color: var(--primary-color); */
-  background-color: #a62625;
-  background-color: -webkit-linear-gradient(to top, #6f0000, #a62625);
-  background-color: linear-gradient(to top, #6f0000, #a62625);
+  background-color: #a91825;
+  background-color: -webkit-linear-gradient(to top, #6f0000, #a91825);
+  background-color: linear-gradient(to top, #6f0000, #a91825);
 }
 .tabBg {
   background-color: #efefef;
@@ -25,7 +25,7 @@
 .headerBg {
   background-color: var(--secondary-color);
   padding: 10px 10px;
-  color: #ffffff;
+  color: #e6e7df;
 }
 .headerNav {
   display: flex;
@@ -69,7 +69,7 @@
   font-weight: bolder;
 }
 .tabTittle {
-  color: #ffffff;
+  color: #e6e7df;
   margin-top: 10px;
   font-weight: bold;
 }

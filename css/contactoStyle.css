@@ -1,6 +1,6 @@
 .cardBg {
   text-align: center;
-  color: #ffffff;
+  color: #e6e7df;
 }
 .contactImageBg {
   width: 100%;
@@ -20,7 +20,7 @@
   margin-bottom: 10px;
   background-color: var(--secondary-color);
   border-radius: 10px;
-  border-color: #ffffff;
+  border-color: #e6e7df;
   border-width: 3px;
   border-style: double;
   max-width: 250px;
@@ -33,21 +33,21 @@
 }
 .contactText {
   text-align: center;
-  color: #ffffff;
+  color: #e6e7df;
   font-size: 1.1rem;
 }
 .contactWA {
   display: flex;
   align-content: center;
   justify-content: center;
-  color: #ffffff;
+  color: #e6e7df;
   padding: 10px;
 }
 .btnLlamar {
   display: flex;
   align-content: center;
   justify-content: center;
-  color: #ffffff;
+  color: #e6e7df;
   padding: 10px;
 }
 .contactWA:hover {
@@ -67,7 +67,7 @@
 .hamburguesaText {
   font-size: 2.3rem;
   font-weight: bold;
-  color: #ffffff;
+  color: #e6e7df;
 }
 .hamburguesaIcon {
   width: 150px;
