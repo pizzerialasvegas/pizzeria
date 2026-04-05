@@ -34,11 +34,12 @@ The entire site is a single page (`app/page.tsx`) that renders different menu ca
 - `components/menu-section.tsx` — Renders a full category section (grid of `MenuItemCard`).
 - `components/header.tsx` — Sticky navigation with category tabs.
 - `components/contact-section.tsx` — Contact/location info section.
+- `components/footer.tsx` — Footer with "Desarrollado por RENOA" credit linking to renoa.tech. Contains commented-out `linear-gradient` styles pending client approval.
 
 ### Styling
 
 - Tailwind CSS v4 (configured via `@tailwindcss/postcss`).
-- Brand colors are CSS custom properties in `styles/globals.css`: `--brand-red`, `--brand-blue`, `--brand-yellow`, `--brand-white`.
+- Brand colors are CSS custom properties in `app/globals.css`: `--brand-red`, `--brand-blue`, `--brand-yellow`. There is also a `styles/globals.css` (legacy/duplicate).
 - Shadcn/ui components live in `components/ui/` — these are generated files; prefer editing via the `shadcn` CLI rather than modifying directly.
 - Path alias `@/` maps to the repo root.
 
