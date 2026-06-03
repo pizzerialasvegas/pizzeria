@@ -22,67 +22,67 @@ export const menuData: MenuCategory[] = [
         name: "Pizza Churrasco Chapín",
         description: "1 dip de cilantro y cebolla",
         price: 100,
-        image: "/images/pizza-1.jpg"
+        image: "/images/pizzaChurrascoChapin.jpg"
       },
       {
         id: "pizza-extrema",
         name: "Pizza Extrema",
         description: "3 estaciones (Deluxe, Hawaiana, 5 Carnes) + 1 estación de 1 ingrediente a tu elección",
         price: 80,
-        image: "/images/pizza-2.jpg"
+        image: "/images/pizzaExtrema.jpeg"
       },
       {
         id: "pizza-grande-1-ingrediente",
         name: "Pizza Grande de 1 Ingrediente (12 porciones)",
         description: "Jamón, Peperoni, Salami, Carne o Salchicha Italiana",
         price: 50,
-        image: "/images/pizza-3.jpg"
+        image: "/images/pizzaPeperoniGrande.jpg"
       },
       {
         id: "pizza-mediana-1-ingrediente",
         name: "Pizza Mediana de 1 Ingrediente",
         description: "Jamón, Peperoni, Salami, Carne o Salchicha Italiana",
         price: 40,
-        image: "/images/pizza-4.jpg"
+        image: "/images/pizzaMediana1Ingrediente.jpg"
       },
       {
         id: "pizza-4-estaciones",
         name: "Pizza 4 Estaciones",
         description: "3 estaciones de 1 ingrediente + 1 estación Deluxe o Hawaiana",
         price: 65,
-        image: "/images/pizza-5.jpg"
+        image: "/images/pizza4Estaciones2.jpeg"
       },
       {
         id: "cheese-bread",
         name: "Cheese Bread + Bebida",
         price: 20,
-        image: "/images/cheese-bread.jpg"
+        image: "/images/cheeseBread.jpeg"
       },
       {
         id: "pizza-2-estaciones",
         name: "Pizza 2 Estaciones (12 porciones)",
         description: "Jamón, Peperoni, Salami, Carne o Salchicha Italiana",
         price: 55,
-        image: "/images/pizza-6.jpg"
+        image: "/images/pizza2Estaciones.jpg"
       },
       {
         id: "pizza-hawaiana",
         name: "Pizza Hawaiana (12 porciones)",
         price: 70,
-        image: "/images/pizza-7.jpg"
+        image: "/images/pizzaHawaianaGrande.jpg"
       },
       {
         id: "pizza-deluxe",
         name: "Pizza Deluxe (12 porciones)",
         price: 85,
-        image: "/images/pizza-8.jpg"
+        image: "/images/pizzaDeluxe.jpg"
       },
       {
         id: "pizza-especialidades",
         name: "Pizza de Especialidades",
         description: "5 Carnes o Suprema",
         price: 95,
-        image: "/images/pizza-9.jpg"
+        image: "/images/pizzaSupremaGrande.jpg"
       }
     ]
   },
@@ -95,38 +95,38 @@ export const menuData: MenuCategory[] = [
         name: "Don Calzone Churrasco Chapín",
         description: "1 dip de cilantro y cebolla",
         price: 35,
-        image: "/images/calzone-1.jpg"
+        image: "/images/calzoneChurrascoChapin.jpg"
       },
       {
         id: "calzone-1-ingrediente",
         name: "Don Calzone de 1 Ingrediente + Bebida",
         description: "Jamón, Peperoni, Salami, Carne o Salchicha Italiana",
         price: 20,
-        image: "/images/calzone-2.jpg"
+        image: "/images/calzoneJamon.jpg"
       },
       {
         id: "calzone-hawaiano",
         name: "Don Calzone Hawaiano + Bebida",
         price: 25,
-        image: "/images/calzone-3.jpg"
+        image: "/images/calzoneHawaDelu.jpg"
       },
       {
         id: "calzone-deluxe",
         name: "Don Calzone Deluxe + Bebida",
         price: 30,
-        image: "/images/calzone-4.jpg"
+        image: "/images/calzoneDeluxe.jpg"
       },
       {
         id: "calzone-5-carnes",
         name: "Don Calzone 5 Carnes + Bebida",
         price: 30,
-        image: "/images/calzone-5.jpg"
+        image: "/images/calzone5Carnes.jpg"
       },
       {
         id: "calzone-supremo",
         name: "Don Calzone Supremo + Bebida",
         price: 35,
-        image: "/images/calzone-6.jpg"
+        image: "/images/calzoneSupre5Carnes.jpg"
       }
     ]
   },
@@ -139,38 +139,38 @@ export const menuData: MenuCategory[] = [
         name: "Pizza Personal Churrasco Chapín",
         description: "1 dip de cilantro y cebolla",
         price: 35,
-        image: "/images/personal-1.jpg"
+        image: "/images/pizzaPersonalChurrascoChapin.jpg"
       },
       {
         id: "personal-1-ingrediente",
         name: "Pizza Personal de 1 Ingrediente + Bebida",
         description: "Jamón, Peperoni, Salami, Carne o Salchicha Italiana",
         price: 20,
-        image: "/images/personal-2.jpg"
+        image: "/images/pizzaPersonal.jpg"
       },
       {
         id: "personal-hawaiana",
         name: "Pizza Personal Hawaiana + Bebida",
         price: 25,
-        image: "/images/personal-3.jpg"
+        image: "/images/pizzaPersonalHawaiana.jpg"
       },
       {
         id: "personal-deluxe",
         name: "Pizza Personal Deluxe + Bebida",
         price: 30,
-        image: "/images/personal-4.jpg"
+        image: "/images/pizzaDeluxePersonal.jpg"
       },
       {
         id: "personal-5-carnes",
         name: "Pizza Personal 5 Carnes + Bebida",
         price: 30,
-        image: "/images/personal-5.jpg"
+        image: "/images/pizzaEspecialidad.jpg"
       },
       {
         id: "personal-suprema",
         name: "Pizza Personal Suprema + Bebida",
         price: 35,
-        image: "/images/personal-6.jpg"
+        image: "/images/pizzaSuprema.jpg"
       }
     ]
   },
@@ -183,35 +183,35 @@ export const menuData: MenuCategory[] = [
         name: "Lasaña de 1 Libra",
         description: "Incluye pan y bebida",
         price: 35,
-        image: "/images/lasana-1.jpg"
+        image: "/images/lasanaLibra.jpg"
       },
       {
         id: "lasana-1-5-libras",
         name: "Lasaña de 1.5 Libras",
         description: "Incluye pan y bebida",
         price: 50,
-        image: "/images/lasana-2.jpg"
+        image: "/images/lasanaLibraYMedia.jpg"
       },
       {
         id: "lasana-familiar",
         name: "Lasaña Familiar",
         description: "Incluye pan y bebida",
         price: 135,
-        image: "/images/lasana-3.jpg"
+        image: "/images/lasanaFamiliar.png"
       },
       {
         id: "alitas-5",
         name: "5 Alitas en Barbacoa + Bebida",
         description: "Incluye 1 aderezo (ranch, mostaza miel o césar)",
         price: 35,
-        image: "/images/alitas-1.jpg"
+        image: "/images/alitas1.jpg"
       },
       {
         id: "alitas-10",
         name: "10 Alitas en Barbacoa",
         description: "Incluye 1 aderezo (ranch, mostaza miel o césar)",
         price: 50,
-        image: "/images/alitas-2.jpg"
+        image: "/images/alitas2.jpg"
       }
     ]
   },
@@ -223,13 +223,13 @@ export const menuData: MenuCategory[] = [
         id: "hamburguesa-res",
         name: "Combo - Hamburguesa de Res 1/4 de Libra",
         price: 40,
-        image: "/images/burger-1.jpg"
+        image: "/images/burger.png"
       },
       {
         id: "hamburguesa-pollo",
         name: "Combo - Hamburguesa de Pollo",
         price: 25,
-        image: "/images/burger-2.jpg"
+        image: "/images/burgerPollo.jpg"
       }
     ]
   }

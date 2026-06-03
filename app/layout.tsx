@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Poppins } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
+import Script from 'next/script'
 import './globals.css'
 
 const poppins = Poppins({ 
@@ -34,7 +34,22 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${poppins.className} antialiased`}>
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+{process.env.NODE_ENV === 'production' && (
+          <>
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-GBG1JM7H2F"
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-GBG1JM7H2F');
+              `}
+            </Script>
+          </>
+        )}
       </body>
     </html>
   )
