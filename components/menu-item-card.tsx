@@ -8,9 +8,10 @@ import { type MenuItem } from '@/lib/menu-data'
 type MenuItemCardProps = {
   item: MenuItem
   categoryColor?: string
+  priority?: boolean
 }
 
-export function MenuItemCard({ item, categoryColor = 'var(--brand-red)' }: MenuItemCardProps) {
+export function MenuItemCard({ item, categoryColor = 'var(--brand-red)', priority = false }: MenuItemCardProps) {
   const [modalOpen, setModalOpen] = useState(false)
 
   useEffect(() => {
@@ -34,6 +35,8 @@ export function MenuItemCard({ item, categoryColor = 'var(--brand-red)' }: MenuI
             fill
             className="object-cover transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            priority={priority}
+            loading={priority ? undefined : 'lazy'}
           />
           {/* Price badge */}
           <div
@@ -50,7 +53,7 @@ export function MenuItemCard({ item, categoryColor = 'var(--brand-red)' }: MenuI
             {item.name}
           </h3>
           {item.description && (
-            <p className="mt-2 text-sm text-gray-500 leading-relaxed">
+            <p className="mt-2 text-sm text-gray-600 leading-relaxed">
               {item.description}
             </p>
           )}

@@ -37,7 +37,7 @@ export function Header({ activeCategory, onCategoryChange }: HeaderProps) {
                 <h1 className="text-xl font-bold tracking-tight sm:text-2xl lg:text-3xl text-balance">
                   Pizzería Las Vegas
                 </h1>
-                <p className="text-xs text-white/80 hidden sm:block">La Casa de la Pizza</p>
+                <p className="text-xs text-white hidden sm:block">La Casa de la Pizza</p>
               </div>
             </div>
             
@@ -55,6 +55,8 @@ export function Header({ activeCategory, onCategoryChange }: HeaderProps) {
               size="icon"
               className="md:hidden text-white hover:bg-white/10"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
+              aria-expanded={mobileMenuOpen}
             >
               {mobileMenuOpen ? <X className="size-6" /> : <Menu className="size-6" />}
             </Button>
