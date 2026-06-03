@@ -195,7 +195,7 @@ export const menuData: MenuCategory[] = [
       {
         id: "lasana-familiar",
         name: "Lasaña Familiar",
-        description: "Incluye pan y bebida",
+        description: "Incluye pan",
         price: 135,
         image: "/images/lasanaFamiliar.png"
       },
