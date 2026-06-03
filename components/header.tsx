@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Bike, Menu, X, Phone } from 'lucide-react'
 import { menuData, contactInfo } from '@/lib/menu-data'
 import { Button } from '@/components/ui/button'
@@ -23,8 +24,14 @@ export function Header({ activeCategory, onCategoryChange }: HeaderProps) {
         <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="size-12 rounded-full bg-white/10 p-2 backdrop-blur-sm flex items-center justify-center">
-                <span className="text-2xl">🍕</span>
+              <div className="size-12 rounded-full overflow-hidden bg-white/10 backdrop-blur-sm flex items-center justify-center">
+                <Image
+                  src="/images/newLogoPizzeria.jpeg"
+                  alt="Logo Pizzería Las Vegas"
+                  width={48}
+                  height={48}
+                  className="object-cover size-full"
+                />
               </div>
               <div>
                 <h1 className="text-xl font-bold tracking-tight sm:text-2xl lg:text-3xl text-balance">

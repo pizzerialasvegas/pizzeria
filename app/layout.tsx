@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: 'Pizzería Las Vegas - Servicio a domicilio GRATIS en zona 3. Pizzas, Calzones, Pastas, Hamburguesas y más. 12 CALLE "C" 6-51 ZONA 3.',
   keywords: ['pizzería', 'pizza', 'las vegas', 'zona 3', 'guatemala', 'delivery', 'calzone', 'lasaña', 'hamburguesas'],
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.png',
   },
 }
 

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { MapPin, Clock, Phone, MessageCircle } from 'lucide-react'
 import { contactInfo } from '@/lib/menu-data'
 import { Button } from '@/components/ui/button'
@@ -30,8 +31,14 @@ export function ContactSection({ isActive }: ContactSectionProps) {
         <div className="overflow-hidden rounded-3xl bg-white shadow-xl ring-1 ring-gray-100">
           {/* Logo section */}
           <div className="bg-brand-red px-6 py-10 text-center sm:px-12 sm:py-14">
-            <div className="mx-auto mb-4 flex size-24 items-center justify-center rounded-full bg-white/10 backdrop-blur-sm sm:size-28">
-              <span className="text-5xl sm:text-6xl">🍕</span>
+            <div className="mx-auto mb-4 size-24 rounded-full overflow-hidden bg-white/10 backdrop-blur-sm sm:size-28">
+              <Image
+                src="/images/newLogoPizzeria.jpeg"
+                alt="Logo Pizzería Las Vegas"
+                width={112}
+                height={112}
+                className="object-cover size-full"
+              />
             </div>
             <h3 className="text-2xl font-bold text-white sm:text-3xl">
               Pizzería Las Vegas
