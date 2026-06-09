@@ -151,7 +151,7 @@ export const menuData: MenuCategory[] = [
       {
         id: "personal-hawaiana",
         name: "Pizza Personal Hawaiana + Bebida",
-        price: 25,
+        price: 30,
         image: "/images/pizzaPersonalHawaiana.jpg"
       },
       {
