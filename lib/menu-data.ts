@@ -28,7 +28,7 @@ export const menuData: MenuCategory[] = [
         id: "pizza-extrema",
         name: "Pizza Extrema",
         description: "3 estaciones (Deluxe, Hawaiana, 5 Carnes) + 1 estación de 1 ingrediente a tu elección",
-        price: 80,
+        price: 85,
         image: "/images/pizzaExtrema.jpeg"
       },
       {
